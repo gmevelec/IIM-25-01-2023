@@ -36,12 +36,17 @@ Pourquoi pas ?
 - Projet trop facile
 - Environnement trop complexe a simuler 
 
+Quand ?
+- Apres
+- Pendant
+- Avant
 
-
-
-
-
-
-
+Comment ecrire un test:
+1- Given - Definition des variables, des dependances
+2- When - Appel de la fonction
+3- Then - Verification du resultat
 
 TDD -> Test Driven Development
+1 - RED - Ecrire un test qui fail (et qui fait avancer dans la bonne direction)
+2 - GREEN - Ecrire le code qui fait passer le test
+3 - Refacto

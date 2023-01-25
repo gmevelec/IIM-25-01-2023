@@ -1,21 +1,10 @@
+import { isEven } from './index'
 
-
-describe('Ma premiere suite de test', () => {
-  let plop = 'plop'
-  describe('Mon cas precis', () => {
-    beforeEach(() => {
-      plop = 'plop'
-    })
-    it('should be false', () => {
-      plop = 'plop updated'
-      expect(plop).toBe('plop updated')
-    })
-    it('should be true', () => {
-      plop = 'plop updated'
-      expect(plop).toBe('plop updated')
-    })
+describe('Est pair', () => {
+  it('should return true if number is even', () => {
+    expect(isEven(2)).toBeTruthy()
   })
-  it('should be true', () => {
-    expect(plop).toBe('plop updated')
+  it('should return false if number is odd', () => {
+    expect(isEven(1)).toBeFalsy()
   })
 })
